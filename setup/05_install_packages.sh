@@ -3,8 +3,6 @@
 OURNAME=05_install_packages.sh
 
 echo -e "\n-- Executing ${ORANGE}${OURNAME}${NC} subscript --"
-# disable postfix
-systemctl disable postfix
 
 # install nginx
 apt-get update
