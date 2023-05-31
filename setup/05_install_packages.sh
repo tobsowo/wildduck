@@ -6,7 +6,7 @@ echo -e "\n-- Executing ${ORANGE}${OURNAME}${NC} subscript --"
 
 # install nginx
 apt update
-apt -q -y install gnupg2 pwgen git ufw build-essential libssl-dev dnsutils python-is-python3 software-properties-common nginx wget mongodb-org nodejs redis-server clamav clamav-daemon
+apt -q -y install pwgen git ufw build-essential libssl-dev dnsutils python-is-python3 software-properties-common nginx wget mongodb-org nodejs redis-server clamav clamav-daemon
 
 # rspamd
 apt -q -y --no-install-recommends install rspamd
